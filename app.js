@@ -23,6 +23,4 @@ app.get("/canciones", function (req, res) {
     res.render("canciones");
   });
 
-app.listen(3000, function (req, res) {
-    console.log("serving on 3000");
-  });
+app.listen(process.env.PORT || 3000);
