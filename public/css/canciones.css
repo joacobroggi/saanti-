@@ -366,7 +366,7 @@ font-size:4.5vw;
     display: grid;
     grid-template-columns:repeat(3, 33.3%);
     margin: 0;
-    height: 400px;
+    /* height: 400px; */
     margin-bottom: 50px;
   }
   .izq {
